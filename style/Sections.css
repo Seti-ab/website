@@ -1,0 +1,50 @@
+section {
+    min-height: 50vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+}
+section:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+section p {
+    line-height: 36px;
+}
+section h2 {
+    margin: 0 0 16px 0;
+}
+.content {
+    display: flex;
+    white-space: pre-line;
+    flex-direction: column;
+    gap: 26px;
+    width: 100%;
+    align-items: center;
+}
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+}
+
+.pdfContainer {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.pdfContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}

@@ -15,7 +15,7 @@ function Header(navItems) {
     circle.classList.add("circle");
     imageContainer.append(circle);
     const myPicture = document.createElement("img");
-    myPicture.src = '../assets/images/profile.jpg';
+    myPicture.src = "../assets/images/profile.jpg";
     myPicture.alt = 'profile'
     myPicture.id = 'profileImage'
     imageContainer.append(myPicture)
